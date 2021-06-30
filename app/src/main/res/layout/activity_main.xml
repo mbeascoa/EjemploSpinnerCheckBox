@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lblText1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spnSpinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/chbCheckBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color de Texto" />
+
+    <CheckBox
+        android:id="@+id/chbCheckBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color de Fondo" />
+
+    <Button
+        android:id="@+id/botButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarColor"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/txtTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Programacion con Android" />
+
+</LinearLayout>
